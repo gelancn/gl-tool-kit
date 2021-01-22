@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "declaration": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": [
+      "ES5",
+      "DOM",
+      "ES2015.Generator",
+      "ES2015.Collection",
+      "ES2015.Promise",
+      "ES2015.Proxy",
+      "ESNext.AsyncIterable"
+    ],
+    "outDir": "./dist"
+  },
+  "include": ["./src"],
+  "exclude": ["./node_modules"]
+}
